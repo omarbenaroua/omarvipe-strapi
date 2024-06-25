@@ -7,4 +7,11 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  settings: {
+    cors: {
+      enabled: true,
+      origin: ['https://tuo-dominio.com'], // Sostituisci con il dominio del tuo sito web
+    },
+  },
 });
+
