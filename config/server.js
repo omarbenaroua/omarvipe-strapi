@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
   settings: {
     cors: {
       enabled: true,
-      origin: ['https://tuo-dominio.com'], // Sostituisci con il dominio del tuo sito web
+      origin: ['https://omarvipe.vercel.app'], // Sostituisci con il dominio del tuo sito web
     },
   },
 });
